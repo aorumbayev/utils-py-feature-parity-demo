@@ -21,8 +21,8 @@ print(f"Transaction ID: {tx_id}")
 
 # Transaction groups
 atc = AtomicTransactionComposer()
-g_pay_1 = algosdk.transaction.PaymentTxn(sender=default_account.address, receiver=default_account.address, amt=10000, sp=sp, note=b'Hello1')
-g_pay_2 = algosdk.transaction.PaymentTxn(sender=default_account.address, receiver=default_account.address, amt=10000, sp=sp, note=b'Hello2')
+g_pay_1 = algosdk.transaction.PaymentTxn(sender=default_account.address, receiver=default_account.address, amt=10000, sp=sp, note=b"Hello1")
+g_pay_2 = algosdk.transaction.PaymentTxn(sender=default_account.address, receiver=default_account.address, amt=10000, sp=sp, note=b"Hello2")
 atc.add_transaction(TransactionWithSigner(g_pay_1, default_account.signer))
 atc.add_transaction(TransactionWithSigner(g_pay_2, default_account.signer))
 

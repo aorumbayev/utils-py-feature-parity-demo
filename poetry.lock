@@ -152,8 +152,8 @@ py-algorand-sdk = "^2.4.0"
 [package.source]
 type = "git"
 url = "https://github.com/algorandfoundation/algokit-utils-py.git"
-reference = "prerelease/ts-feature-parity-appclient"
-resolved_reference = "6d27062362c93885ee5cf4d9419bebf0dec50235"
+reference = "prerelease/ts-feature-parity"
+resolved_reference = "18744fe0eb9a1bcfa695fe4e274139d9737755f5"
 
 [[package]]
 name = "algorand-python"
@@ -2256,4 +2256,4 @@ propcache = ">=0.2.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "2d6918df9d407048a4f9c089c8e6cb3114fe0b527befeac8a2dae1fcc4187399"
+content-hash = "ec6bf4f96f7f43e4358b7caee1c4701f28f6ef1da0deaef58127fbbe977a332b"
